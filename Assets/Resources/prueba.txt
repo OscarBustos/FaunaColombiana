@@ -1,0 +1,10 @@
+koala (Phascolarctos cinereus)
+
+Reino:	Animalia
+Filo:	Chordata
+Clase:	Mammalia
+Infraclase:	Marsupialia
+Orden:	Diprotodontia
+Familia:	Phascolarctidae
+Género:	Phascolarctos
+Especie:	P. cinereus
