@@ -1,13 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LoadImages.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JSLizards\Iguana\Scripts\IguanaUserController.cs">
     <Files>
-      <File FileName="Assets\LoadImages.cs" Line="16" Column="57" />
+      <File FileName="Assets\PauseManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\changeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets\LoadImages.cs" Line="1" Column="1" />
+      <File FileName="Assets\JSLizards\Iguana\Scripts\IguanaUserController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="C:\Users\Oscar\Documents\FaunaColombiana\Assets\LoadImages.cs" line="16" column="1" />
+      <Breakpoint file="C:\Users\Oscar\Documents\FaunaColombiana\Assets\LoadImages.cs" line="22" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
