@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
 public class LoadImages : MonoBehaviour {
 	public const  int numeroAnimales = 9;
@@ -17,10 +18,11 @@ public class LoadImages : MonoBehaviour {
 		TextAsset imgPergamino = (TextAsset)Resources.Load (url);
 		myPanel.GetComponent<Text>().text = imgPergamino.text;
 */
-		string region = "region_1/";
+		string region = "region_"+concurrencia.objConcurrencia.region+"/";
 
 		for (int i = 1; i <= numeroAnimales; i++) {
 			// consultar y agregar las imagenes de los animales 
+			try{
 			string animal = "animal_" + i;
 			string urlImagenAnimal = url + region + animal+"/imagen_"+i;
 			GameObject imagePlane = GameObject.Find ("imagen_" + i);
@@ -40,6 +42,9 @@ public class LoadImages : MonoBehaviour {
 			GameObject panelDescripcion = GameObject.Find ("descripcion_pergamino_" + i);
 			TextAsset descripcionPergamino = (TextAsset)Resources.Load (urlDescripcionAnimal);
 			panelDescripcion.GetComponent<Text>().text = descripcionPergamino.text;
+			}catch(Exception e){
+				
+			}
 		}
 	}
 		//StartCoroutine(LoadImage());

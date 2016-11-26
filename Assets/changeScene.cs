@@ -4,7 +4,9 @@ using System.Collections;
 
 public class changeScene : MonoBehaviour {
 
-	public void changeToScene(int scene){
-		SceneManager.LoadScene (scene); 
+	public void changeToScene(int region){
+
+		concurrencia.objConcurrencia.region = region;
+		SceneManager.LoadScene (1); 
 	}
 }
